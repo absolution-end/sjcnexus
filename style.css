@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    column-gap: 40px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+p>b{
+    color: #ff0000;
+}
+#logo{
+    border-radius: 50%;     
+}
+img{
+    border-radius: 20px;
+}
